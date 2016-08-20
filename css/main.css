@@ -1,0 +1,813 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, sans-serif;
+}
+
+#mainWapper{
+    background-color: lightblue;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*-------------------------------------------*/
+
+#halcyonDays{
+    width: 100%;
+    height: 778px;
+    background-color: blueviolet;
+    background-image: url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    //position: absolute;
+ }
+
+.allTexts{
+    width: 550px;
+    height: 230px;
+    position: relative;
+    left: 422px;
+    top:250px;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+}
+
+.firstText{
+    display: block;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 12px;
+    margin: 10px;
+    position: relative;
+}
+
+.firstText span{
+    color: lightgrey;
+}
+
+.secondText p{
+    color: lightgrey;
+    letter-spacing: 1px;
+    font-size: 18px;
+    line-height: 25px;
+    position: relative;
+}
+
+.button .btn{
+    width: 255px;
+    height: 60px;
+    background-color: #3DC9B3;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    position: relative;
+    top: 70px;
+}
+/*-------------------------------------------*/
+
+#portfolio{
+    width: 100%;
+    height: 390px;
+    background-color: #F4F5F9;
+}
+
+.portfolioText{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.portfolioImg{
+    height: 30px;
+    background-image: url(../images/h1-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 115px;
+}
+
+.portfolioLorem{
+    font-size: 14px;
+    line-height: 25px;
+    color: #BCC1C5;
+    text-align: center;
+    width: 743px;
+    position: relative;
+    top: 165px;
+    left: 305px;
+}
+
+.portfolioLorem span{
+    color: black;
+}
+/*-------------------------------------------*/
+
+#love{
+    width: 100%;
+    height: 717px;
+}
+
+.loveText{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.loveImg{
+    height: 30px;
+    background-image: url(../images/h1-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 115px;
+}
+
+.icon{
+    position: relative;
+    top: 60px;
+    text-align: center;
+}
+
+.iconDiv{
+    width: 33.33%;
+    height: auto;
+    float: left;
+}
+
+.icons1{
+    padding: 95px;
+    margin: 130px;
+    border-radius: 50%;
+    background-color: #3EC9B4;
+}
+
+.iconBlue{
+    position: relative;
+}
+
+.digital{
+    font-weight: bold;
+    position: relative;
+    bottom: 70px;
+}
+
+.iconText{
+    color: #BCC1C5;
+    line-height: 1.5;
+    position: relative;
+}
+/*-------------------------------------------*/
+#bootstrap{
+    width: 100%;
+    height: 650px;
+}
+
+.bootsDiv{
+    width: 100%;
+    height: 650px;
+}
+    
+.bootsImg{
+    width: 50%;
+    height: 650px;
+    background-color: #F3F5F8;
+    float: left;
+}
+
+.bootsImg .img{
+    width: 75%;
+    height: 650px;
+    background-image: url(../images/iphone-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    float: right;
+    position: relative;
+}
+
+.bootsTxt{
+    width: 50%;
+    height: 650px;
+    float: right;
+    position: relative;
+}
+
+
+.bootsText{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.bootsimage{
+    height: 30px;
+    background-image: url(../images/h1-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 115px;
+}
+
+.pTags{
+    width: 462px;
+    height: 215px;
+    position: relative;
+    left: 110px;
+    top: 150px;
+}
+
+.pTags p{
+    font-size: 14px;
+    line-height: 25px;
+    color: #BCC1C5;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+/*-------------------------------------------*/
+
+#problems{
+    width: 100%;
+    height: 317px;
+    background-image: url(../images/plants-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.problemsText{
+    width: 50%;
+    position: relative;
+    left: 440px;
+    top: 75px;
+}
+
+.problemsText h1{
+    
+    color: #fff;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.problemsText span{
+    display: block;
+    font-size: 23px;
+    margin-top: 23px;
+    position: relative;
+    left: 45px;
+}
+/*-------------------------------------------*/
+
+#creative{
+    width: 100%;
+    height: 676px;
+    position: relative;
+}
+
+.creativeMainDiv{
+    width: 1142px;;
+    height: 423px;
+    position: relative;
+    left: 105px;
+    top: 88px;
+    bottom: 165px;
+    float: left;
+}
+
+.creativeImg{
+    width: 355px;
+    height: 100%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+.imgSon{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/portfolio-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creativeText{
+    width: 100%;
+    height: 50%;
+}
+
+.creativeText h2{
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.creativeText p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.creativeImg2{
+    width: 355px;
+    height: 100%;
+    margin: 0px 20px;
+    position: relative;
+    left: 370px;
+}
+
+.imgSon2{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/portfolio-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creativeImg2 .creativeText2{
+    width: 100%;
+    height: 50%;
+}
+
+.creativeText2 h2{
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -168px;
+}
+
+.creativeText2 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -111px;
+}
+
+.creativeImg3{
+    width: 355px;
+    height: 100%;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 423px;
+}
+
+.imgSon3{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/portfolio-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.creativeText3{
+    width: 100%;
+    height: 50%;
+}
+
+.creativeText3 h2{
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.creativeText3 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+/*-------------------------------------------*/
+
+#ignite{
+    width: 100%;
+    height: 215px;
+    background-color: red;
+}
+
+.igniteDiv{
+    height: 215px;
+    background-color: #242830;
+    position: relative;
+}
+
+.igniteBtn{
+    width: 260px;
+    height: 72px;
+    border: 1px solid white;
+    background-color: #242830;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    left: 544px;
+    top: 70px;
+}
+/*-------------------------------------------*/
+#team{
+    width: 100%;
+    height: 676px;
+    position: relative;
+}
+
+.teamMainDiv{
+    width: 1142px;;
+    height: 423px;
+    position: relative;
+    left: 105px;
+    top: 88px;
+    bottom: 165px;
+    float: left;
+}
+
+.teamImg{
+    width: 355px;
+    height: 100%;
+    background-color: white;
+    float: left;
+    position: relative;
+}
+
+.teamSon{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/team-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.teamText{
+    width: 100%;
+    height: 50%;
+}
+
+.teamText h2{
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.teamText p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.teamImg2{
+    width: 355px;
+    height: 100%;
+    margin: 0px 20px;
+    position: relative;
+    left: 370px;
+}
+
+.teamSon2{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/team-02.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.teamImg2 .teamText2{
+    width: 100%;
+    height: 50%;
+}
+
+.teamText2 h2{
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -168px;
+}
+
+.teamText2 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -111px;
+}
+
+.teamImg3{
+    width: 355px;
+    height: 100%;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 423px;
+}
+
+.teamSon3{
+    width: 100%;
+    height: 50%;
+    background-image: url(../images/team-03.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+}
+
+.teamText3{
+    width: 100%;
+    height: 50%;
+}
+
+.teamText3 h2{
+    font-size: 15px;
+    color: #353535;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+
+.teamText3 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+/*-------------------------------------------*/
+
+#subscribe{
+    width: 100%;
+    height: 444px;
+    background-image: url(../images/keyboard-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.subscribeMainDiv{
+    width: 440px;
+    height: 100%;
+    position: relative;
+    left: 460px;
+}
+
+.subscribeBtn{
+    width: 440px;
+    height: 50%;
+    position: relative;
+    left: 28px;
+    top: 50px;
+}
+
+.subscribeMainDiv h1{
+    color: white;
+    display: block;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.subscribeMainDiv .input{
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid 1px #fff;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 60%;
+    color: #fff;
+}
+
+.subscribeMainDiv .send{
+    background: rgba(61, 201, 179, 0.5);
+    border: solid 1px rgba(61, 201, 179, 0.5);
+    padding: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+/*-------------------------------------------*/
+
+#drop{
+    width: 100%;
+    height: 639px;
+    background-color: #F3F5F8;
+}
+
+.dropText{
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.dropImg{
+    height: 30px;
+    background-image: url(../images/h1-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    top: 115px;
+}
+
+.dropDivs{
+    width: 1114px;
+    height: 200px;
+    position: relative;
+    left: 120px;
+    top: 230px;
+}
+
+.dropDiv1{
+    width: 335px;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.dropDiv1 h2 span{
+    display: block;
+    color: #3dc9b3;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.dropDiv1 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.dropDiv2{
+    width: 335px;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    left: 390px;
+}
+
+.dropDiv2 h2 span{
+    display: block;
+    color: #3dc9b3;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    top: -126px;
+}
+
+.dropDiv2 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: -90px;
+}
+
+.dropDiv3{
+    width: 335px;
+    height: 100%;
+    background-color: white;
+    float: right;
+    position: relative;
+    bottom: 200px;
+}
+
+.dropDiv3 h2 span{
+    display: block;
+    color: #3dc9b3;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.dropDiv3 p{
+    color: #8c9398;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+/*-------------------------------------------*/
+
+#footer{
+    width: 100%;
+    height: 122px;
+    background-color: #242830;
+}
+
+.footerDivs{
+    width: 85%;
+    height: 25px;
+    position: relative;
+    top: 62px;
+    left: 190px;
+}
+
+.footerLeftDiv{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.footerRightDiv{
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+
+ul.legals li{
+    display: inline-block;
+}
+
+.footerLeftDiv .legals{
+    list-style: none;
+    color: #fff;
+    line-height: 25px;
+    text-align: left;
+    font-size: 14px;
+}
+
+.footerRightDiv p{
+    color: white;
+    word-spacing: 1px;
+    line-height: 25px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.footerRightDiv p a{
+    color: #a1a9b0;
+}
+
+
